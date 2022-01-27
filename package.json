@@ -1,0 +1,13 @@
+{
+  "name": "@gpx/g",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "bin": "./index.mjs",
+  "scripts": {
+    "start": "npx zx index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
