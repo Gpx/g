@@ -27,7 +27,7 @@ await fs.outputFile(
   `import styles from "./${componentName}.module.css";
 
 function ${componentName}() {
-  return null;
+  return <div>${componentName}</div>;
 }
 
 export default ${componentName};
