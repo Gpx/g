@@ -34,7 +34,7 @@ export default ${componentName};
 `
 );
 await fs.outputFile(
-  `${componentPath}/index.js`,
+  `${componentPath}/index.tsx`,
   `export { default } from "./${componentName}";`
 );
 
